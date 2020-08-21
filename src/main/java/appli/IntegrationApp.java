@@ -48,7 +48,7 @@ public class IntegrationApp {
 		List<Produit> listProduit = new ArrayList<Produit>();
 
 		try {
-			File file = new File("E:\\Developpements\\Projets\\Donnees\\openFoodFacts.csv");
+			File file = new File("‪‪C:\\Temp\\Openfoodfacts.csv");
 			List<String> lignes = FileUtils.readLines(file, "UTF-8");
 			EntityManager em = CnxBdd.getConnection();
 
@@ -137,7 +137,7 @@ public class IntegrationApp {
 
 				String categories = morceaux[0];
 				String marques = morceaux[1];
-				String produit = morceaux[2];
+				String nomproduit = morceaux[2];
 				String gradenutri = morceaux[3];
 				String ingredient = morceaux[4];
 
