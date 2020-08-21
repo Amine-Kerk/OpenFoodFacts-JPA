@@ -1,4 +1,4 @@
-package fr.diginamic.offi.utils;
+package utils;
 
 import org.apache.commons.lang3.math.NumberUtils;
 

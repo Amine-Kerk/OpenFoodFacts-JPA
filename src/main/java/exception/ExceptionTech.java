@@ -1,4 +1,4 @@
-package fr.diginamic.offi.exception;
+package exception;
 
 /**
  * Exception technique grave incompatible avec la poursuite de l'application.
